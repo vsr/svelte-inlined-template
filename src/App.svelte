@@ -1,11 +1,13 @@
 <script>
-	export let name;
+  export let name;
 </script>
 
 <style>
-	h1 {
-		color: rebeccapurple;
-	}
+  h1 {
+    color: rebeccapurple;
+  }
 </style>
 
-<h1>Hello {name}!</h1>
+<div class="container mx-auto">
+  <h1 class="text-xl font-bold">Hello {name}!</h1>
+</div>
